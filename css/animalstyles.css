@@ -1,5 +1,6 @@
 body {
-background-color: rgb(58, 172, 108);
+  background-color: rgb(58, 172, 108);
+  font-family: sans-serif;
 }
 
 h1 {
@@ -22,10 +23,18 @@ h2 {
 }
 
 img {
-  padding: 20px;
-  margin: auto;
-  width: 30%;
-  display: block;
+  width: 40%;
+  float: left;
+  margin: 20px;
+  }
+
+div {
+  margin-bottom: 150px;
+}
+
+.nameList {
+ margin: auto;
+ width: 50%;
 }
 
 .nameList li {
